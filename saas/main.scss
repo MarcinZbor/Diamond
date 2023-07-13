@@ -21,9 +21,6 @@ body {
 	background-color: $dark;
 }
 
-@import "./small";
-@import "./large";
-@import "./medium";
 
 h1.company-name {
 	margin-bottom: 0.5em;
@@ -173,3 +170,7 @@ h1.company-name {
 		}
 	}
 }
+
+@import "./small";
+@import "./medium";
+@import "./large";
