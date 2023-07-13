@@ -21,6 +21,10 @@ body {
 	background-color: $dark;
 }
 
+.sticky-body {
+	overflow: hidden;
+	
+}
 
 h1.company-name {
 	margin-bottom: 0.5em;
@@ -130,9 +134,10 @@ h1.company-name {
 		transition: transform 0.3s;
 		transform: translateX(-102%);
 		z-index: 10;
-
+		
 		&--active {
 			transform: translateX(0);
+			
 		}
 	}
 	&-desktop {
@@ -154,20 +159,7 @@ h1.company-name {
 			color: $gold;
 		}
 
-		&::before {
-			position: absolute;
-			top: 0;
-			left: 0;
-			content: "";
-			width: 100%;
-			height: 100%;
-			border: 1px solid $gold;
-			opacity: 0;
-
-			&:hover::before {
-				animation: pulse 1s;
-			}
-		}
+		
 	}
 }
 

@@ -16,52 +16,78 @@
 			src="https://kit.fontawesome.com/2707afadc2.js"
 			crossorigin="anonymous"></script>
 	</head>
-
-	<header class="header">
-		<button class="hamburger hamburger--spin" type="button">
-			<span class="hamburger-box">
-				<span class="hamburger-inner"></span>
-			</span>
-		</button>
-
-		<nav class="nav nav-mobile">
-			<a class="nav__link" href="#invest">invest</a>
-			<a class="nav__link" href="#plan">plan</a>
-			<a class="nav__link" href="#contact">contact</a>
-		</nav>
-		<nav class="nav nav-desktop">
-			<a class="nav__link" href="#invest">invest</a>
-			<a class="nav__link" href="#plan">plan</a>
-			<a class="nav__link" href="#contact">contact</a>
-		</nav>
-
-		<div class="header__text">
-			<h1 class="company-name">Diamond Gold & Money Co.</h1>
-			<p>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque
-				reprehenderit in?
-			</p>
-		</div>
-
-		<div class="header__img">
-			<div class="header__shadow"></div>
-		</div>
-
-		<a href="#cards">
-			<div class="header__arrow">
-				<img class="header__arrow-icon" src="./img/icons/arrow-down.svg" alt="" />
-			</div>
-		</a>
-		<img class="header__bg-icon-one" src="./img/icons/square.svg" alt="" />
-		<img class="header__bg-icon-two" src="./img/icons/square.svg" alt="" />
-	</header>
-
-	<footer class="footer">
-		<p class="footer__bottom-text">
-			&copy; <span class="footer__year"></span>Diamond Co.
-		</p>
-	</footer>
 	<body>
+		<header class="header">
+			<button class="hamburger hamburger--spin" type="button">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</button>
+
+			<nav class="nav nav-mobile">
+				<a class="nav__link" href="#invest">invest</a>
+				<a class="nav__link" href="#plan">plan</a>
+				<a class="nav__link" href="#contact">contact</a>
+			</nav>
+			<nav class="nav nav-desktop">
+				<a class="nav__link" href="#invest">invest</a>
+				<a class="nav__link" href="#plan">plan</a>
+				<a class="nav__link" href="#contact">contact</a>
+			</nav>
+
+			<div class="header__text">
+				<h1 class="company-name">Diamond Gold & Money Co.</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque atque
+					reprehenderit in?
+				</p>
+			</div>
+
+			<div class="header__img">
+				<div class="header__shadow"></div>
+			</div>
+
+			<a href="#cards">
+				<div class="header__arrow">
+					<img
+						class="header__arrow-icon"
+						src="./img/icons/arrow-down.svg"
+						alt="" />
+				</div>
+			</a>
+			<img class="header__bg-icon-one" src="./img/icons/square.svg" alt="" />
+			<img class="header__bg-icon-two" src="./img/icons/square.svg" alt="" />
+		</header>
+		<main class="main">
+			<section class="cards" id="cards">
+				<div class="wrapper">
+					<div class="cards__box">
+						<div class="cards__card cards__card--one">
+							<img src="img/icons/trending-up.svg" alt="" />
+							<h3>profit</h3>
+							<p>Lorem ipsum dolor sit.</p>
+						</div>
+						<div class="cards__card cards__card--one">
+							<img src="img/icons/award.svg" alt="" />
+							<h3>no. 1</h3>
+							<p>Lorem ipsum dolor sit.</p>
+						</div>
+						<div class="cards__card cards__card--one">
+							<img src="img/icons/globe.svg" alt="" />
+							<h3>global</h3>
+							<p>Lorem ipsum dolor sit.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<p class="footer__bottom-text">
+				&copy; <span class="footer__year"></span> Diamond Co.
+			</p>
+		</footer>
+
 		<script src="./js/main.js"></script>
 	</body>
 </html>
