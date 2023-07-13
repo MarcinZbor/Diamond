@@ -1,3 +1,12 @@
-@media (min-width: 992px) {
-    
+@media (min-width: 768px) {
+	.cards {
+		&__box {
+			padding: 10em 2em;
+		}
+
+		&__card {
+			grid-column: span 3;
+			grid-row: auto;
+		}
+	}
 }
